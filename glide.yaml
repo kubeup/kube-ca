@@ -1,0 +1,20 @@
+package: github.com/kubeup/kube-ca
+import:
+- package: github.com/cloudflare/cfssl
+  version: fb16c3479c6ecbd2211751586b206f71387349e6
+  subpackages:
+  - api
+  - api/signhandler
+  - helpers
+  - signer
+  - signer/local
+- package: github.com/rs/xhandler
+  version: ^1.0.0
+- package: github.com/rs/xmux
+  version: 447ce20d8516cc0d2564fc3de70b5d078e0b816e
+- package: golang.org/x/net
+  subpackages:
+  - context
+- package: google.golang.org/api
+  subpackages:
+  - cloudkms/v1

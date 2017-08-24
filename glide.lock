@@ -1,0 +1,87 @@
+hash: 589c2411efe89f6b21734f47cc2e526ab74cb6084696ea36bcb04fb666b0e260
+updated: 2017-08-24T23:45:08.332679251+08:00
+imports:
+- name: cloud.google.com/go
+  version: 3b1ae45394a234c385be014e9a488f2bb6eef821
+  subpackages:
+  - compute/metadata
+  - internal
+- name: github.com/cloudflare/cfssl
+  version: fb16c3479c6ecbd2211751586b206f71387349e6
+  subpackages:
+  - api
+  - api/signhandler
+  - auth
+  - bundler
+  - certdb
+  - config
+  - crypto/pkcs7
+  - csr
+  - errors
+  - helpers
+  - helpers/derhelpers
+  - info
+  - log
+  - ocsp/config
+  - signer
+  - signer/local
+  - ubiquity
+- name: github.com/golang/protobuf
+  version: 4bd1920723d7b7c925de087aa32e2187708897f7
+  subpackages:
+  - proto
+- name: github.com/google/certificate-transparency-go
+  version: 0dac42a6ed448ba220ee315abfaa6d26fd5fc9bb
+  repo: https://github.com/google/certificate-transparency-go
+  subpackages:
+  - asn1
+  - client
+  - jsonclient
+  - tls
+  - x509
+  - x509/pkix
+- name: github.com/rs/xhandler
+  version: d9d9599b6aaf6a058cb7b1f48291ded2cbd13390
+- name: github.com/rs/xmux
+  version: 447ce20d8516cc0d2564fc3de70b5d078e0b816e
+- name: golang.org/x/crypto
+  version: 9a6f0a01987842989747adff311d80750ba25530
+  repo: https://go.googlesource.com/crypto
+  subpackages:
+  - ocsp
+  - pbkdf2
+  - pkcs12
+  - pkcs12/internal/rc2
+  - scrypt
+- name: golang.org/x/net
+  version: 3f122ce3dbbe488b7e6a8bdb26f41edec852a40b
+  subpackages:
+  - context
+  - context/ctxhttp
+- name: golang.org/x/oauth2
+  version: a6bd8cefa1811bd24b86f8902872e4e8225f74c4
+  subpackages:
+  - google
+  - internal
+  - jws
+  - jwt
+- name: google.golang.org/api
+  version: e3824ed33c72bf7e81da0286772c34b987520914
+  subpackages:
+  - cloudkms/v1
+  - gensupport
+  - googleapi
+  - googleapi/internal/uritemplates
+- name: google.golang.org/appengine
+  version: 12d5545dc1cfa6047a286d5e853841b6471f4c19
+  subpackages:
+  - internal
+  - internal/app_identity
+  - internal/base
+  - internal/datastore
+  - internal/log
+  - internal/modules
+  - internal/remote_api
+  - internal/urlfetch
+  - urlfetch
+testImports: []
